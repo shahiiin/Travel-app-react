@@ -1,3 +1,4 @@
+import  CarouselImg  from "./components/carousel/CarouselImg";
 import Destination from "./components/destination/Destination";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
@@ -13,6 +14,7 @@ function App() {
       <Destination/>
       <Search/>
       <Selects/>
+      <CarouselImg/>
     </div>
   );
 }
